@@ -29,7 +29,3 @@ def score_server():
     <h1><div id="score" style="color:red">{exception}</div></h1>
     </body>
     </html>'''
-    
-    finally:
-#        os.system("export FLASK_APP=MainScores.py")
-        app.run(debug=False,host='0.0.0.0')
